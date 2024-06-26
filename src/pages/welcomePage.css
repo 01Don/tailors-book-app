@@ -1,0 +1,91 @@
+.App-header {
+    background-color: #4c1f24;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .h1{
+    position: relative;
+    top: 20px;
+  }
+  .suti-div{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #923225;
+    position: relative;
+    top: 40px;
+    right: 90px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .suti-div:hover{
+    background-color: #88271a;
+  }
+  .suruali-div:hover{
+    background-color: #88271a;
+  }
+  
+  
+  .suruali-div{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #923225;
+    position: relative;
+    top: -30px;
+    left: 90px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .kizibao-div{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #923225;
+    position: relative;
+    top: 20px;
+    right: 90px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .kizibao-div:hover{
+    background-color: #88271a;
+  }
+  
+  .shati-div{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #923225;
+    position: relative;
+    top: -50px;
+    left: 90px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .shati-div:hover{
+    background-color: #88271a;
+  }
+  
+  .img-fundi{
+    width: 100%;
+    height: 100%;
+  }
