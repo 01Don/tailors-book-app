@@ -1,0 +1,68 @@
+.contact-page{
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+}
+.contact-div{
+    min-height: 100vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact-div::before{
+    content: "";
+    background-image: url(../image/fundi5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.35;
+    border-radius: 20px;
+}
+
+.contact-name{
+    list-style: none;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 00px;
+    right:60px;
+}
+
+.contact{
+    width: 157%;
+    height: 50px;
+    border: #ffffff solid 0.5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: ;
+    margin-top: 3px;
+}
+
+.send-btn1{
+    width: 150px;
+    height: 75px;
+    border-radius: 16px;
+    background-color: #1a6bad;
+    border: none;
+    color: #fff;
+    font-size:40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.send-btn1:hover{
+    background-color: #358ed6;
+}

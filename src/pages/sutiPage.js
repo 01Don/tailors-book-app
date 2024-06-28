@@ -1,8 +1,7 @@
 import React from 'react'
 import "./sutiPage.css"
-import fundiSuti from "../image/fundi2.jpeg"
 import { Link } from 'react-router-dom'
-import contactList from './contactList';
+
 
 function sutiPage() {
   return (
@@ -16,8 +15,9 @@ function sutiPage() {
        <input type="number" name='vipimo'  className="urf-inp"/ >
        <div className='ure-div'>Shingo</div> 
        <input type="number" name='vipimo'  className="urf-inp"/ >
-       <Link to="/contactList"><button className='send-btn'>
-       Send
+       
+    <Link to="/contactlist"><button className='send-btn'>
+       Next
     </button></Link>
     </div>
   )
