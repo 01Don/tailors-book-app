@@ -27,6 +27,7 @@
     margin-bottom: 50px;
     border: #000 solid;
     border-radius: 10px;
+    margin-right: 80px;
 }
 
 .inpt4{
@@ -45,7 +46,7 @@
     border-radius: 10px;
     width: 40%;
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 21px;
 }
 .label1,.label2{
     font-size: 30px;
@@ -56,7 +57,7 @@
     margin-right: 130px;
 }
 
-.label3,.label4, .label5{
+.label4, .label5{
     display: flex;
     flex-direction: column;
     font-size: 30px;
@@ -67,11 +68,13 @@
 
 .label3{
     width: 78%;
-    margin-left: 40px;
+    margin-left: -20px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .h-fitt{
- margin-right: 70px;
+ margin-right: 90px;
 }
 
 .h-price{
@@ -79,5 +82,10 @@
 }
 
 .h-gender{
-    margin-right: 160px;
+    margin-right: 190px;
+    font-size: 20px;
+}
+
+.send-btn{
+    margin-bottom: 20px ;
 }
