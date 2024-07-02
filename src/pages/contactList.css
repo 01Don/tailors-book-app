@@ -38,7 +38,7 @@
     font-size: 30px;
     font-weight: bold;
     bottom: 00px;
-    right:60px;
+    right:50px;
 }
 
 .contact{
@@ -66,3 +66,12 @@
 .send-btn1:hover{
     background-color: #358ed6;
 }
+
+.contact {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  

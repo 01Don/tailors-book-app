@@ -48,7 +48,7 @@
 .urf-inp{
     width: 75px;
     height: 75px;
-    background: none;
+    background: transparent;
     border: #fff solid;
     position: relative;
     bottom: 80px;
